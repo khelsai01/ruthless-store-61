@@ -34,126 +34,126 @@
     
     "india":[
         {
-          "image1": "https://thedestinationtravel.in/img/sikkim.jpg",
-          "country1": "Sikkim & Darjeeling Tour Packages",
-          "description1": "Sikkim is a place for travelers who seek tranquility in the serene laps of mother nature where you can behold the pristine glacial lakes, endless pastures, waterfalls at every turn, quiet monastery towns.",
+          "image": "https://thedestinationtravel.in/img/sikkim.jpg",
+          "name": "Sikkim & Darjeeling Tour Packages",
+          "description": "Sikkim is a place for travelers who seek tranquility in the serene laps of mother nature where you can behold the pristine glacial lakes, endless pastures, waterfalls at every turn, quiet monastery towns.",
           "packages":[
             {
-              "image1": "https://thedestinationtravel.in/img/sikkim1.jpg",
-              "country1": "Teesta",
-              "description1": "Sikkim is a place for travelers who seek tranquility in the serene laps of mother nature where you can behold the pristine glacial lakes, endless pastures, waterfalls at every turn, quiet monastery towns.",
+              "image": "https://thedestinationtravel.in/img/sikkim1.jpg",
+              "name": "Teesta",
+              "description": "Sikkim is a place for travelers who seek tranquility in the serene laps of mother nature where you can behold the pristine glacial lakes, endless pastures, waterfalls at every turn, quiet monastery towns.",
               "price":2300,
               "rating":8.5,
               "id":"s1"
             },
             {
-              "image1": "https://thedestinationtravel.in/img/sikkim2.jpg",
-              "country1": "Sandakphu",
-              "description1": "Sikkim is a place for travelers who seek tranquility in the serene laps of mother nature where you can behold the pristine glacial lakes, endless pastures, waterfalls at every turn, quiet monastery towns.",
+              "image": "https://thedestinationtravel.in/img/sikkim2.jpg",
+              "name": "Sandakphu",
+              "description": "Sikkim is a place for travelers who seek tranquility in the serene laps of mother nature where you can behold the pristine glacial lakes, endless pastures, waterfalls at every turn, quiet monastery towns.",
               "price":3300,
               "rating":8.8,
               "id":"s2"
             },
             {
-              "image1": "https://thedestinationtravel.in/img/sikkim3.jpg",
-              "country1": "The Toy Train",
-              "description1": "Sikkim is a place for travelers who seek tranquility in the serene laps of mother nature where you can behold the pristine glacial lakes, endless pastures, waterfalls at every turn, quiet monastery towns.",
+              "image": "https://thedestinationtravel.in/img/sikkim3.jpg",
+              "name": "The Toy Train",
+              "description": "Sikkim is a place for travelers who seek tranquility in the serene laps of mother nature where you can behold the pristine glacial lakes, endless pastures, waterfalls at every turn, quiet monastery towns.",
               "price":4300,
               "rating":8,
               "id":"s3"
             },
             {
-              "image1": "https://thedestinationtravel.in/img/sikkim4.jpg",
-              "country1": "Himalayan Mountaineering Institute",
-              "description1": "Sikkim is a place for travelers who seek tranquility in the serene laps of mother nature where you can behold the pristine glacial lakes, endless pastures, waterfalls at every turn, quiet monastery towns.",
+              "image": "https://thedestinationtravel.in/img/sikkim4.jpg",
+              "name": "Himalayan Mountaineering Institute",
+              "description": "Sikkim is a place for travelers who seek tranquility in the serene laps of mother nature where you can behold the pristine glacial lakes, endless pastures, waterfalls at every turn, quiet monastery towns.",
               "price":500,
               "rating":7.8,
               "id":"s11"
             },
             {
-              "image1": "https://thedestinationtravel.in/img/sikkim5.jpg",
-              "country1": "Himalayan Zoological Park",
-              "description1": "Sikkim is a place for travelers who seek tranquility in the serene laps of mother nature where you can behold the pristine glacial lakes, endless pastures, waterfalls at every turn, quiet monastery towns.",
+              "image": "https://thedestinationtravel.in/img/sikkim5.jpg",
+              "name": "Himalayan Zoological Park",
+              "description": "Sikkim is a place for travelers who seek tranquility in the serene laps of mother nature where you can behold the pristine glacial lakes, endless pastures, waterfalls at every turn, quiet monastery towns.",
               "price":2300,
               "rating":6.8,
               "id":"s4"
             },
             {
-              "image1": "https://thedestinationtravel.in/img/sikkim6.jpg",
-              "country1": "Tiger Hill",
-              "description1": "Sikkim is a place for travelers who seek tranquility in the serene laps of mother nature where you can behold the pristine glacial lakes, endless pastures, waterfalls at every turn, quiet monastery towns.",
+              "image": "https://thedestinationtravel.in/img/sikkim6.jpg",
+              "name": "Tiger Hill",
+              "description": "Sikkim is a place for travelers who seek tranquility in the serene laps of mother nature where you can behold the pristine glacial lakes, endless pastures, waterfalls at every turn, quiet monastery towns.",
               "price":1234,
               "rating":5,
               "id":"s5"
             },
             {
-              "image1": "https://thedestinationtravel.in/img/sikkim7.jpg",
-              "country1": "Dooars",
-              "description1": "Sikkim is a place for travelers who seek tranquility in the serene laps of mother nature where you can behold the pristine glacial lakes, endless pastures, waterfalls at every turn, quiet monastery towns.",
+              "image": "https://thedestinationtravel.in/img/sikkim7.jpg",
+              "name": "Dooars",
+              "description": "Sikkim is a place for travelers who seek tranquility in the serene laps of mother nature where you can behold the pristine glacial lakes, endless pastures, waterfalls at every turn, quiet monastery towns.",
               "price":3300,
               "rating":8.8,
               "id":"s6"
             },
             {
-              "image1": "https://thedestinationtravel.in/img/sikkim8.jpg",
-              "country1": "Kalimpong",
-              "description1": "Sikkim is a place for travelers who seek tranquility in the serene laps of mother nature where you can behold the pristine glacial lakes, endless pastures, waterfalls at every turn, quiet monastery towns.",
+              "image": "https://thedestinationtravel.in/img/sikkim8.jpg",
+              "name": "Kalimpong",
+              "description": "Sikkim is a place for travelers who seek tranquility in the serene laps of mother nature where you can behold the pristine glacial lakes, endless pastures, waterfalls at every turn, quiet monastery towns.",
               "price":4500,
               "rating":8.8,
               "id":"s7"
             },
             {
-              "image1": "https://thedestinationtravel.in/img/sikkim9.jpg",
-              "country1": "Peace Pagoda",
-              "description1": "Sikkim is a place for travelers who seek tranquility in the serene laps of mother nature where you can behold the pristine glacial lakes, endless pastures, waterfalls at every turn, quiet monastery towns.",
+              "image": "https://thedestinationtravel.in/img/sikkim9.jpg",
+              "name": "Peace Pagoda",
+              "description": "Sikkim is a place for travelers who seek tranquility in the serene laps of mother nature where you can behold the pristine glacial lakes, endless pastures, waterfalls at every turn, quiet monastery towns.",
               "price":5000,
               "rating":8,
               "id":"s8"
             },
             {
-              "image1": "https://thedestinationtravel.in/img/sikkim10.jpg",
-              "country1": "Batasia Loop",
-              "description1": "Sikkim is a place for travelers who seek tranquility in the serene laps of mother nature where you can behold the pristine glacial lakes, endless pastures, waterfalls at every turn, quiet monastery towns.",
+              "image": "https://thedestinationtravel.in/img/sikkim10.jpg",
+              "name": "Batasia Loop",
+              "description": "Sikkim is a place for travelers who seek tranquility in the serene laps of mother nature where you can behold the pristine glacial lakes, endless pastures, waterfalls at every turn, quiet monastery towns.",
               "price":3300,
               "rating":5.8,
               "id":"s9"
             },
             {
-              "image1": "https://thedestinationtravel.in/img/sikkim11.jpg",
-              "country1": "Thukpa And Momos",
-              "description1": "Sikkim is a place for travelers who seek tranquility in the serene laps of mother nature where you can behold the pristine glacial lakes, endless pastures, waterfalls at every turn, quiet monastery towns.",
+              "image": "https://thedestinationtravel.in/img/sikkim11.jpg",
+              "name": "Thukpa And Momos",
+              "description": "Sikkim is a place for travelers who seek tranquility in the serene laps of mother nature where you can behold the pristine glacial lakes, endless pastures, waterfalls at every turn, quiet monastery towns.",
               "price":3000,
               "rating":8,
               "id":"s10"
             },
             {
-              "image1": "https://thedestinationtravel.in/img/sikkim12.jpg",
-              "country1": "Keventers Restaurant",
-              "description1": "Sikkim is a place for travelers who seek tranquility in the serene laps of mother nature where you can behold the pristine glacial lakes, endless pastures, waterfalls at every turn, quiet monastery towns.",
+              "image": "https://thedestinationtravel.in/img/sikkim12.jpg",
+              "name": "Keventers Restaurant",
+              "description": "Sikkim is a place for travelers who seek tranquility in the serene laps of mother nature where you can behold the pristine glacial lakes, endless pastures, waterfalls at every turn, quiet monastery towns.",
               "price":2500,
               "rating":6.8,
               "id":"s12"
             },
             {
-              "image1": "https://thedestinationtravel.in/img/sikkim13.jpg",
-              "country1": "Churpi",
-              "description1": "Sikkim is a place for travelers who seek tranquility in the serene laps of mother nature where you can behold the pristine glacial lakes, endless pastures, waterfalls at every turn, quiet monastery towns.",
+              "image": "https://thedestinationtravel.in/img/sikkim13.jpg",
+              "name": "Churpi",
+              "description": "Sikkim is a place for travelers who seek tranquility in the serene laps of mother nature where you can behold the pristine glacial lakes, endless pastures, waterfalls at every turn, quiet monastery towns.",
               "price":3300,
               "rating":8,
               "id":"s13"
             },
             {
-              "image1": "https://thedestinationtravel.in/img/sikkim14.jpg",
-              "country1": "Chowrasta",
-              "description1": "Sikkim is a place for travelers who seek tranquility in the serene laps of mother nature where you can behold the pristine glacial lakes, endless pastures, waterfalls at every turn, quiet monastery towns.",
+              "image": "https://thedestinationtravel.in/img/sikkim14.jpg",
+              "name": "Chowrasta",
+              "description": "Sikkim is a place for travelers who seek tranquility in the serene laps of mother nature where you can behold the pristine glacial lakes, endless pastures, waterfalls at every turn, quiet monastery towns.",
               "price":3500,
               "rating":8,
               "id":"s14"
             },
             {
-              "image1": "https://thedestinationtravel.in/img/sikkim15.jpg",
-              "country1": "Bhutia Market",
-              "description1": "Sikkim is a place for travelers who seek tranquility in the serene laps of mother nature where you can behold the pristine glacial lakes, endless pastures, waterfalls at every turn, quiet monastery towns.",
+              "image": "https://thedestinationtravel.in/img/sikkim15.jpg",
+              "name": "Bhutia Market",
+              "description": "Sikkim is a place for travelers who seek tranquility in the serene laps of mother nature where you can behold the pristine glacial lakes, endless pastures, waterfalls at every turn, quiet monastery towns.",
               "price":3300,
               "rating":8.8,
               "id":"s15"
@@ -161,125 +161,125 @@
            ]
         },
         {
-          "image1": "https://thedestinationtravel.in/img/kashmir.jpg",
-          "country1": "Kashmir Tour Packages",
-          "description1": "Jammu and Kashmir in the northern part of India is a Union Territory that is often referred to as a “Paradise on Earth.” Boasting immense natural beauty, Kashmir is known for its snow-clad mountains.",
+          "image": "https://thedestinationtravel.in/img/kashmir.jpg",
+          "name": "Kashmir Tour Packages",
+          "description": "Jammu and Kashmir in the northern part of India is a Union Territory that is often referred to as a “Paradise on Earth.” Boasting immense natural beauty, Kashmir is known for its snow-clad mountains.",
           "packages":[
             {
-              "image1": "https://thedestinationtravel.in/img/sikkim1.jpg",
-              "country1": "Teesta",
+              "image": "https://thedestinationtravel.in/img/sikkim1.jpg",
+              "name": "Teesta",
               "description":"Jammu and Kashmir in the northern part of India is a Union Territory that is often referred to as a “Paradise on Earth.",
               "price":1250,
               "rating":7,
               "id":"j1"
             },
             {
-              "image1": "https://thedestinationtravel.in/img/sikkim2.jpg",
-              "country1": "Sandakphu",
+              "image": "https://thedestinationtravel.in/img/sikkim2.jpg",
+              "name": "Sandakphu",
               "description":"Jammu and Kashmir in the northern part of India is a Union Territory that is often referred to as a “Paradise on Earth.",
               "price":1359,
               "rating":6,
               "id":"j2"
             },
             {
-              "image1": "https://thedestinationtravel.in/img/sikkim3.jpg",
-              "country1": "The Toy Train",
+              "image": "https://thedestinationtravel.in/img/sikkim3.jpg",
+              "name": "The Toy Train",
               "description":"Jammu and Kashmir in the northern part of India is a Union Territory that is often referred to as a “Paradise on Earth.",
               "price":2354,
               "rating":9,
               "id":"j3"
             },
             {
-              "image1": "https://thedestinationtravel.in/img/sikkim4.jpg",
-              "country1": "Himalayan Mountaineering Institute",
+              "image": "https://thedestinationtravel.in/img/sikkim4.jpg",
+              "name": "Himalayan Mountaineering Institute",
               "description":"Jammu and Kashmir in the northern part of India is a Union Territory that is often referred to as a “Paradise on Earth.",
               "price":2344,
               "rating":5,
               "id":"j4"
             },
             {
-              "image1": "https://thedestinationtravel.in/img/sikkim5.jpg",
-              "country1": "Himalayan Zoological Park",
+              "image": "https://thedestinationtravel.in/img/sikkim5.jpg",
+              "name": "Himalayan Zoological Park",
               "description":"Jammu and Kashmir in the northern part of India is a Union Territory that is often referred to as a “Paradise on Earth.",
               "price":2567,
               "rating":7.7,
               "id":"j5"
             },
             {
-              "image1": "https://thedestinationtravel.in/img/sikkim6.jpg",
-              "country1": "Tiger Hill",
+              "image": "https://thedestinationtravel.in/img/sikkim6.jpg",
+              "name": "Tiger Hill",
               "description":"Jammu and Kashmir in the northern part of India is a Union Territory that is often referred to as a “Paradise on Earth.",
               "price":2000,
               "rating":5.5,
               "id":"j6"
             },
             {
-              "image1": "https://thedestinationtravel.in/img/sikkim7.jpg",
-              "country1": "Dooars",
+              "image": "https://thedestinationtravel.in/img/sikkim7.jpg",
+              "name": "Dooars",
               "description":"Jammu and Kashmir in the northern part of India is a Union Territory that is often referred to as a “Paradise on Earth.",
               "price":3000,
               "rating":8,
               "id":"j7"
             },
             {
-              "image1": "https://thedestinationtravel.in/img/sikkim8.jpg",
-              "country1": "Kalimpong",
+              "image": "https://thedestinationtravel.in/img/sikkim8.jpg",
+              "name": "Kalimpong",
               "description":"Jammu and Kashmir in the northern part of India is a Union Territory that is often referred to as a “Paradise on Earth.",
               "price":2000,
               "rating":6.6,
               "id":"j8"
             },
             {
-              "image1": "https://thedestinationtravel.in/img/sikkim9.jpg",
-              "country1": "Peace Pagoda",
+              "image": "https://thedestinationtravel.in/img/sikkim9.jpg",
+              "name": "Peace Pagoda",
               "description":"Jammu and Kashmir in the northern part of India is a Union Territory that is often referred to as a “Paradise on Earth.",
               "price":5000,
               "rating":9,
               "id":"j9"
             },
             {
-              "image1": "https://thedestinationtravel.in/img/sikkim10.jpg",
-              "country1": "Batasia Loop",
+              "image": "https://thedestinationtravel.in/img/sikkim10.jpg",
+              "name": "Batasia Loop",
               "description":"Jammu and Kashmir in the northern part of India is a Union Territory that is often referred to as a “Paradise on Earth.",
               "price":4400,
               "rating":9,
               "id":"j10"
             },
             {
-              "image1": "https://thedestinationtravel.in/img/sikkim11.jpg",
-              "country1": "Thukpa And Momos",
+              "image": "https://thedestinationtravel.in/img/sikkim11.jpg",
+              "name": "Thukpa And Momos",
               "description":"Jammu and Kashmir in the northern part of India is a Union Territory that is often referred to as a “Paradise on Earth.",
               "price":2200,
               "rating":5,
               "id":"j11"
             },
             {
-              "image1": "https://thedestinationtravel.in/img/sikkim12.jpg",
-              "country1": "Keventers Restaurant",
+              "image": "https://thedestinationtravel.in/img/sikkim12.jpg",
+              "name": "Keventers Restaurant",
               "description":"Jammu and Kashmir in the northern part of India is a Union Territory that is often referred to as a “Paradise on Earth.",
               "price":3300,
               "rating":8.7,
               "id":"j12"
             },
             {
-              "image1": "https://thedestinationtravel.in/img/sikkim13.jpg",
-              "country1": "Churpi",
+              "image": "https://thedestinationtravel.in/img/sikkim13.jpg",
+              "name": "Churpi",
               "description":"Jammu and Kashmir in the northern part of India is a Union Territory that is often referred to as a “Paradise on Earth.",
               "price":2300,
               "rating":7,
               "id":"j13"
             },
             {
-              "image1": "https://thedestinationtravel.in/img/sikkim14.jpg",
-              "country1": "Chowrasta",
+              "image": "https://thedestinationtravel.in/img/sikkim14.jpg",
+              "name": "Chowrasta",
               "description":"Jammu and Kashmir in the northern part of India is a Union Territory that is often referred to as a “Paradise on Earth.",
               "price":5500,
               "rating":9.5,
               "id":"j14"
             },
             {
-              "image1": "https://thedestinationtravel.in/img/sikkim15.jpg",
-              "country1": "Bhutia Market",
+              "image": "https://thedestinationtravel.in/img/sikkim15.jpg",
+              "name": "Bhutia Market",
               "description":"Jammu and Kashmir in the northern part of India is a Union Territory that is often referred to as a “Paradise on Earth.",
               "price":2354,
               "rating":7,
@@ -288,13 +288,13 @@
            ]
         },
         {
-          "image1": "https://thedestinationtravel.in/img/ladakh.jpg",
-          "country1": "Ladakh Tour Packages",
-          "description1": "Leh-Ladakh has a breathtaking view of the mountains and they begin to circle you as you near the town. The pristine blue sky, beautiful flowers, snow-covered mountain peaks, the milky-white streams.",
+          "image": "https://thedestinationtravel.in/img/ladakh.jpg",
+          "name": "Ladakh Tour Packages",
+          "description": "Leh-Ladakh has a breathtaking view of the mountains and they begin to circle you as you near the town. The pristine blue sky, beautiful flowers, snow-covered mountain peaks, the milky-white streams.",
           "packages":[
             {
-              "image1": "https://thedestinationtravel.in/img/ladakh1.jpg",
-              "country1": "Hemis National Park",
+              "image": "https://thedestinationtravel.in/img/ladakh1.jpg",
+              "name": "Hemis National Park",
               "description":"Leh-Ladakh has a breathtaking view of the mountains and they begin to circle you as you near the town.",
               "price":5500,
               "rating":9.5,
@@ -302,112 +302,112 @@
               
             },
             {
-              "image1": "https://thedestinationtravel.in/img/ladakh2.jpg",
-              "country1": "Diskit Monastery",
+              "image": "https://thedestinationtravel.in/img/ladakh2.jpg",
+              "name": "Diskit Monastery",
               "description":"Leh-Ladakh has a breathtaking view of the mountains and they begin to circle you as you near the town.",
               "price":3300,
               "rating":6.5,
               "id":"2l"
             },
             {
-              "image1": "https://thedestinationtravel.in/img/ladakh3.jpg",
-              "country1": "Pangong Tso Lake",
+              "image": "https://thedestinationtravel.in/img/ladakh3.jpg",
+              "name": "Pangong Tso Lake",
               "description":"Leh-Ladakh has a breathtaking view of the mountains and they begin to circle you as you near the town.",
               "price":1100,
               "rating":5.5,
               "id":"3l"
             },
             {
-              "image1": "https://thedestinationtravel.in/img/ladakh4.jpg",
-              "country1": "Shanti Stupa",
+              "image": "https://thedestinationtravel.in/img/ladakh4.jpg",
+              "name": "Shanti Stupa",
               "description":"Leh-Ladakh has a breathtaking view of the mountains and they begin to circle you as you near the town.",
               "price":5500,
               "rating":9.5,
               "id":"4l"
             },
             {
-              "image1": "https://thedestinationtravel.in/img/ladakh5.jpg",
-              "country1": "Royal Leh Palace",
+              "image": "https://thedestinationtravel.in/img/ladakh5.jpg",
+              "name": "Royal Leh Palace",
               "description":"Leh-Ladakh has a breathtaking view of the mountains and they begin to circle you as you near the town.",
               "price":3400,
               "rating":6.5,
               "id":"5l"
             },
             {
-              "image1": "https://thedestinationtravel.in/img/ladakh6.jpg",
-              "country1": "Tso Moriri Lake",
+              "image": "https://thedestinationtravel.in/img/ladakh6.jpg",
+              "name": "Tso Moriri Lake",
               "description":"Leh-Ladakh has a breathtaking view of the mountains and they begin to circle you as you near the town.",
               "price":2300,
               "rating":7.5,
               "id":"6l"
             },
             {
-              "image1": "https://thedestinationtravel.in/img/ladakh7.jpg",
-              "country1": "Namgyal Tsemo Gompa",
+              "image": "https://thedestinationtravel.in/img/ladakh7.jpg",
+              "name": "Namgyal Tsemo Gompa",
               "description":"Leh-Ladakh has a breathtaking view of the mountains and they begin to circle you as you near the town.",
               "price":5300,
               "rating":9.5,
               "id":"7l"
             },
             {
-              "image1": "https://thedestinationtravel.in/img/ladakh8.jpg",
-              "country1": "Khardung La Pass",
+              "image": "https://thedestinationtravel.in/img/ladakh8.jpg",
+              "name": "Khardung La Pass",
               "description":"Leh-Ladakh has a breathtaking view of the mountains and they begin to circle you as you near the town.",
               "price":2500,
               "rating":8.5,
               "id":"7l"
             },
             {
-              "image1": "https://thedestinationtravel.in/img/ladakh9.jpg",
-              "country1": "Nubra Valley",
+              "image": "https://thedestinationtravel.in/img/ladakh9.jpg",
+              "name": "Nubra Valley",
               "description":"Leh-Ladakh has a breathtaking view of the mountains and they begin to circle you as you near the town.",
               "price":4500,
               "rating":7.5,
               "id":"8l"
             },
             {
-              "image1": "https://thedestinationtravel.in/img/ladakh10.jpg",
-              "country1": "Magnetic Hill",
+              "image": "https://thedestinationtravel.in/img/ladakh10.jpg",
+              "name": "Magnetic Hill",
               "description":"Leh-Ladakh has a breathtaking view of the mountains and they begin to circle you as you near the town.",
               "price":6600,
               "rating":9.5,
               "id":"9l"
             },
             {
-              "image1": "https://thedestinationtravel.in/img/ladakh11.jpg",
-              "country1": "Hemis Monastery",
+              "image": "https://thedestinationtravel.in/img/ladakh11.jpg",
+              "name": "Hemis Monastery",
               "description":"Leh-Ladakh has a breathtaking view of the mountains and they begin to circle you as you near the town.",
               "price":5500,
               "rating":8.5,
               "id":"10l"
             },
             {
-              "image1": "https://thedestinationtravel.in/img/ladakh12.jpg",
-              "country1": "Lamayuru Town",
+              "image": "https://thedestinationtravel.in/img/ladakh12.jpg",
+              "name": "Lamayuru Town",
               "description":"Leh-Ladakh has a breathtaking view of the mountains and they begin to circle you as you near the town.",
               "price":5340,
               "rating":9,
               "id":"11l"
             },
             {
-              "image1": "https://thedestinationtravel.in/img/ladakh13.jpg",
-              "country1": "Alchi",
+              "image": "https://thedestinationtravel.in/img/ladakh13.jpg",
+              "name": "Alchi",
               "description":"Leh-Ladakh has a breathtaking view of the mountains and they begin to circle you as you near the town.",
               "price":5500,
               "rating":9,
               "id":"12l"
             },
             {
-              "image1": "https://thedestinationtravel.in/img/ladakh14.jpg",
-              "country1": "Zanskar Valley",
+              "image": "https://thedestinationtravel.in/img/ladakh14.jpg",
+              "name": "Zanskar Valley",
               "description":"Leh-Ladakh has a breathtaking view of the mountains and they begin to circle you as you near the town.",
               "price":2400,
               "rating":7,
               "id":"13l"
             },
             {
-              "image1": "https://thedestinationtravel.in/img/ladakh15.jpg",
-              "country1": "Markha Valley",
+              "image": "https://thedestinationtravel.in/img/ladakh15.jpg",
+              "name": "Markha Valley",
               "description":"Leh-Ladakh has a breathtaking view of the mountains and they begin to circle you as you near the town.",
               "price":2345,
               "rating":8,
@@ -416,19 +416,19 @@
            ]
         },
         {
-          "image1": "https://thedestinationtravel.in/img/shimla.jpg",
-          "country1": "Shimla & Manali Tour Packages",
-          "description1": "We offer a tastefully crafted Shimla Manali tour covering all the important attractions and activities. Shimla and Manali are two popular tourist places which do not only have natural beauty in abundance but also have several tourist attractions."
+          "image": "https://thedestinationtravel.in/img/shimla.jpg",
+          "name": "Shimla & Manali Tour Packages",
+          "description": "We offer a tastefully crafted Shimla Manali tour covering all the important attractions and activities. Shimla and Manali are two popular tourist places which do not only have natural beauty in abundance but also have several tourist attractions."
         },
         {
-          "image1": "https://thedestinationtravel.in/img/kerala.jpg",
-          "country1": "Kerala Tour Packages",
-          "description1": "Kerala Tour Packages presents a variety of Summer Holiday packages for your travel preferences, be it a short Kerala trip or a week Kerala Tour or Luxury stays for families or couples to choose from the listed Tour packages."
+          "image": "https://thedestinationtravel.in/img/kerala.jpg",
+          "name": "Kerala Tour Packages",
+          "description": "Kerala Tour Packages presents a variety of Summer Holiday packages for your travel preferences, be it a short Kerala trip or a week Kerala Tour or Luxury stays for families or couples to choose from the listed Tour packages."
         },
         {
-          "image1": "https://thedestinationtravel.in/img/turkey.jpg",
-          "country1": "Meghalaya Tour Packages",
-          "description1": "You can choose different Meghalaya Holiday Packages with us based on your choice like Honeymoon Packages, Family Tour Packages and Adventure Packages enabling you to book the right Meghalaya Travel Package."
+          "image": "https://thedestinationtravel.in/img/turkey.jpg",
+          "name": "Meghalaya Tour Packages",
+          "description": "You can choose different Meghalaya Holiday Packages with us based on your choice like Honeymoon Packages, Family Tour Packages and Adventure Packages enabling you to book the right Meghalaya Travel Package."
         }
        ]
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Flex, VStack, HStack, Spacer, Box,} from "@chakra-ui/react"
+import { Container, Flex, Stack, HStack, Spacer, Box,} from "@chakra-ui/react"
 import { NavLink } from "react-router-dom"
 
 const Navbar = () => {
@@ -49,17 +49,18 @@ const Navbar = () => {
     // color:"whitesmoke"
   }
   return (
-    <Container maxW="container.lx" border="2px solid red" bg={"teal.200"} >
+    <Container maxW="full"  bg={"teal.200"} py="10px" px="20px"  >
       <Flex justifyContent="space-around" gap={5} w={"lg"} >
         {links.map((link) =>
-          <VStack>
+          <Stack>
             <NavLink key={link.id} to={link.path} style={
               ({ isActive }) => { return isActive ? activeStyle : DefaultStyle }}
             >{link.title}</NavLink>
-          </VStack>
+          </Stack>
         )}
         <Spacer />
-        <HStack>
+       
+        <HStack ml={"-10px"}>
           <NavLink to="/cart" style={{ size: "18px" }}>Cart</NavLink>
 
         </HStack>
