@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Flex, Stack, HStack, Spacer, Box,} from "@chakra-ui/react"
+import { Container, Flex, Stack, HStack, Spacer, Box, } from "@chakra-ui/react"
 import { NavLink } from "react-router-dom"
 
 const Navbar = () => {
@@ -40,34 +40,45 @@ const Navbar = () => {
   ];
 
   const activeStyle = {
-    textDecoration: "none",
-    color: "orange"
+    textDecoration: 'none',
+    color: 'orange',
+  };
+
+  const defaultStyle = {
+    textDecoration: 'none',
+    // color: 'whitesmoke',
+  };
+  const navbarStyle = {
+    backgroundColor: "#4c4177",
+    backgroundImage: "linear-gradient(315deg, #4c4177 0%, #2a5470 74%)"
   }
 
-  const DefaultStyle = {
-    textDecoration: "none",
-    // color:"whitesmoke"
-  }
   return (
-    <Container maxW="full"  bg={"teal.200"} py="10px" px="20px"  >
-      <Flex justifyContent="space-around" gap={5} w={"lg"} >
-        {links.map((link) =>
-          <Stack>
-            <NavLink key={link.id} to={link.path} style={
-              ({ isActive }) => { return isActive ? activeStyle : DefaultStyle }}
-            >{link.title}</NavLink>
+    <Container maxW="full" py="15px" style={navbarStyle} >
+      <Flex justifyContent="space-around" gap={5} w="lg" >
+        {links.map((link) => (
+          <Stack key={link.id}>
+            <NavLink
+              to={link.path}
+              style={({ isActive }) =>
+                isActive ? activeStyle : defaultStyle
+              }
+            >
+              {link.title}
+            </NavLink>
+            <Spacer />
           </Stack>
-        )}
+        ))}
         <Spacer />
-       
-        <HStack ml={"-10px"}>
-          <NavLink to="/cart" style={{ size: "18px" }}>Cart</NavLink>
 
+        <HStack ml="-10px">
+          <NavLink to="/cart" style={{ fontSize: '18px' }}>
+            Cart
+          </NavLink>
         </HStack>
       </Flex>
     </Container>
-  )
-}
+  );
+};
 
-export { Navbar }
-
+export { Navbar };
