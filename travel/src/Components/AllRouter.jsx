@@ -7,6 +7,7 @@ import Abouts from "../pages/Abouts"
 import Contacts from "../pages/Contact"
 import {Login} from "../pages/Login"
 import Cart from '../pages/Cart'
+import DestinationSingle from '../pages/DestinationSingle'
 
 
 
@@ -16,6 +17,7 @@ const AllRouter = () => {
    <Routes>
     <Route path="/" element={<Home />} />
     <Route path="/destination" element={<Desination />} />
+    <Route path="/destination/:id" element={<DestinationSingle />} />
     <Route path="/blogs" element={<Blogs />} />
     <Route path="/about" element={<Abouts />} />
     <Route path="/contact" element={<Contacts />} />
