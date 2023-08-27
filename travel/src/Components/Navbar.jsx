@@ -1,6 +1,7 @@
 import React from 'react'
-import { Container, Flex, Stack, HStack, Spacer, Box, } from "@chakra-ui/react"
+import { Container, Image, Flex,Center, HStack, Spacer, Box, Stack, Button, } from "@chakra-ui/react"
 import { NavLink } from "react-router-dom"
+import travel from "../Images/travel.png"
 
 const Navbar = () => {
 
@@ -42,11 +43,16 @@ const Navbar = () => {
   const activeStyle = {
     textDecoration: 'none',
     color: 'orange',
+    fontSize:"20px",
+    fontVariant: "small-caps"
   };
 
   const defaultStyle = {
     textDecoration: 'none',
-    // color: 'whitesmoke',
+    fontSize:"20px",
+    fontVariant: "small-caps"
+   
+    
   };
   const navbarStyle = {
     backgroundColor: "#4c4177",
@@ -54,30 +60,38 @@ const Navbar = () => {
   }
 
   return (
-    <Container maxW="full" py="15px" style={navbarStyle} >
-      <Flex justifyContent="space-around" gap={5} w="lg" >
+    <Center maxW="full" bg="white">
+       <NavLink to="/" >
+          <Image src={travel} w="100px" alt="travel" />
+        </NavLink>
+        
+      <Flex justifyContent="space-between" gap="40px"ml="600px" maxW="container.lg"   >
         {links.map((link) => (
-          <Stack key={link.id}>
-            <NavLink
-              to={link.path}
-              style={({ isActive }) =>
-                isActive ? activeStyle : defaultStyle
-              }
-            >
-              {link.title}
-            </NavLink>
-            <Spacer />
-          </Stack>
+          <Center key={link.id} >
+            <Box>
+              <NavLink
+                to={link.path} 
+              
+                style={({ isActive }) =>
+                  isActive ? activeStyle : defaultStyle
+                }
+              >
+                {link.title}
+              </NavLink>
+            </Box>
+
+          </Center>
         ))}
         <Spacer />
 
         <HStack ml="-10px">
-          <NavLink to="/cart" style={{ fontSize: '18px' }}>
+         
+          {/* <NavLink to="/cart" style={{ fontSize: '18px' }}>
             Cart
-          </NavLink>
+          </NavLink> */}
         </HStack>
       </Flex>
-    </Container>
+    </Center>
   );
 };
 

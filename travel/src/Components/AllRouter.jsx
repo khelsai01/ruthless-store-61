@@ -6,8 +6,9 @@ import Blogs from "../pages/Blogs"
 import Abouts from "../pages/Abouts"
 import Contacts from "../pages/Contact"
 import {Login} from "../pages/Login"
-import Cart from '../pages/Cart'
+import Cart from '../pages/Card'
 import DestinationSingle from '../pages/DestinationSingle'
+import SignUp from '../pages/SignUp'
 
 
 
@@ -22,7 +23,8 @@ const AllRouter = () => {
     <Route path="/about" element={<Abouts />} />
     <Route path="/contact" element={<Contacts />} />
     <Route path="/login" element={<Login />} />
-    <Route path='/cart' element={<Cart />} />
+    <Route path="/signup" element={<SignUp />} />
+    {/* <Route path='/cart' element={<Cart />} /> */}
 
    </Routes>
   )
