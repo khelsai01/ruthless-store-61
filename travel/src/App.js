@@ -7,7 +7,8 @@ import Footer from './Components/Footer';
 function App() {
   return (
     <div style={{backgroundColor: "#0cbaba",
-    backgroundImage: `linear-gradient(315deg, #0cbaba 0%, #380036 74%)`
+    backgroundImage: `linear-gradient(315deg, #0cbaba 0%, #380036 74%)`,
+    fontFamily:"sans-serif"
     }}>
       <Navbar />
 

@@ -1,8 +1,6 @@
 import {
-  Container,
   Box, Flex,
   Image,
-  HStack,
   Text,
   Center,
   FormControl,
@@ -13,10 +11,7 @@ import {
   Stack,
   Heading,
   VStack,
-  Spacer,
-  Skeleton,
-  SkeletonCircle,
-  SkeletonText,
+  IconButton ,
   Card,
   Button
 } from '@chakra-ui/react'
@@ -25,9 +20,35 @@ import bg from "../Images/bg.jpg"
 import axios from "axios"
 import HeroSection from '../Components/HeroSection'
 import { useNavigate } from 'react-router-dom'
-import { cardStyle } from './Cart'
+import { cardStyle } from './Card'
+import { ArrowBackIcon, ArrowForwardIcon } from '@chakra-ui/icons';
 
 
+import dubai from "../Images/dubai.jpg"
+import dubai1 from "../Images/dubai1.jpg"
+import heroSection1 from "../Images/heroSection1.jpeg"
+import heroSection2 from "../Images/heroSection2.jpeg"
+import heroSection3 from "../Images/heroSection3.jpeg"
+import heroSection4 from "../Images/heroSection4.jpeg"
+import heroSection5 from "../Images/heroSection5.jpeg"
+import heroSection6 from "../Images/heroSection6.jpeg"
+import heroSection7 from "../Images/heroSection7.jpeg"
+import Shimla from "../Images/Shimla.jpg"
+import LoadingIndicator from './LoadingIndicator'
+import ErrorIndicator from './ErrorIndicator'
+
+const images = [
+  dubai,
+  heroSection1,
+  heroSection2,
+  heroSection3,
+  heroSection4,
+  heroSection5,
+  heroSection6,
+  heroSection7,
+  Shimla,
+  dubai1,
+];
 const Home = () => {
 
   const navigate = useNavigate()
@@ -68,28 +89,43 @@ const Home = () => {
     fetchNational()
   }, [])
 
-console.log(india)
-  if (Loading) {
-    return <Stack>
-      <Skeleton height='20px' />
-      <Skeleton height='20px' />
-      <Skeleton height='20px' />
-      <Skeleton height='20px' />
-      <Skeleton height='20px' />
-      <Skeleton height='20px' />
+// console.log(india)
 
-    </Stack>
+//hero section code
+const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+const goToPreviousImage = () => {
+    setCurrentImageIndex((prevIndex) =>
+        prevIndex === 0 ? images.length - 1 : prevIndex - 1
+    );
+};
+
+const goToNextImage = () => {
+    setCurrentImageIndex((prevIndex) =>
+        prevIndex === images.length - 1 ? 0 : prevIndex + 1
+    );
+};
+
+useEffect(() => {
+    const interval = setInterval(goToNextImage, 3000); // Slide every 5 seconds
+    return () => clearInterval(interval);
+}, []);
+
+//hero section code
+  if (Loading) {
+    return <LoadingIndicator />
   }
 
   if (isError) {
-    throw new Error(`Invalid action type`)
+   return <ErrorIndicator />
   }
   return <>
     <HeroSection />
-    <div style={{width:"100%",margin:"auto"}}>
-      <Stack maxW={"90%"} m="auto">
+    
+    <div style={{width:"100%",margin:"auto" }}>
+      <Stack maxW={"90%"} m="auto" >
 
-        <Flex w={"90%"} h={"150px"} borderRadius={"25px"} p={"20px"} m={"auto"}  bgGradient="linear(90deg, #FFAE80 1.95%, #BB9CE3)">
+        <Flex w={"90%"} h={"150px"} borderRadius={"25px"} p={"20px"} m={"auto"}  bgGradient="linear(90deg, #FFAE80 1.95%, #BB9CE3)" >
           <FormControl  >
             <FormLabel>Loaction</FormLabel>
             <Input type='text' placeholder='Where do you want to go?' />
@@ -113,7 +149,7 @@ console.log(india)
       <VStack  w={"96%"} m="auto" my={"30px"}>
 
       
-        <Flex gap={6} justify={"center"} w={"96%"} my={"30px"}>
+        <Flex gap={6} justify={"center"} w={"96%"} my={"30px"} flexDirection={{base:"row" ,md:"row",sm:"column"}}>
           <Box p="20px" bg="pink.100" borderRadius="10px" w={"32%"}  >
             <Heading fontSize="lg" as="h6" color={"goldenrod"}>40K</Heading>
             <Heading fontSize="lg" as="h6">Destination Trourism</Heading>
@@ -129,8 +165,8 @@ console.log(india)
           </Box>
 
         </Flex>
-        <Heading textAlign={"center"} flexDirection={"column"}>Indian Tourisum</Heading>
-        <SimpleGrid m="auto" gridTemplateColumns={"repeat(3,1fr)"} gap={5}>
+        <Heading textAlign={"center"} flexDirection={"column"} color={"whitesmoke"}>Indian Tourisum</Heading>
+        <SimpleGrid m="auto" columns={{base:1,md:2,lg:3}} gap={5}>
 
           {india && india.map((ind) =>
             <Card p={"14px"} key={ind.id}>
@@ -146,9 +182,9 @@ console.log(india)
       <Stack  my={"5%"}>
         <Center textAlign={"center"} flexDirection={"column"}>
 
-          <Heading as="h3">INTERNATIONAL TOUR DESTINATION</Heading>
+          <Heading as="h3" color={"whitesmoke"}>INTERNATIONAL TOUR DESTINATION</Heading>
 
-          <SimpleGrid w={"4xl"} my={"20px"} gridTemplateColumns={"repeat(3,1fr)"} gap={5} >
+          <SimpleGrid w={"4xl"} my={"20px"} columns={{base:1,md:2,lg:3}} gap={5} >
             {conutry && conutry?.map((item, i) =>
               <Card p={"18px"} key={item.id} style={cardStyle}>
                 <Image src={item.image} alt='travel' borderRadius="10px"/>
