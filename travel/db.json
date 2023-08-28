@@ -809,6 +809,16 @@
           "name": "Meghalaya Tour Packages",
           "description": "You can choose different Meghalaya Holiday Packages with us based on your choice like Honeymoon Packages, Family Tour Packages and Adventure Packages enabling you to book the right Meghalaya Travel Package."
         }
+        
+       ],
+       "login":[
+        {
+          "fisetName":"Khelsai",
+          "lastName":"Rajwade",
+          "email":"khelsai@demo.com",
+          "password":"1234"
+
+        }
        ]
 
        
